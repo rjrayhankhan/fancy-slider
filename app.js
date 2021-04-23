@@ -45,7 +45,7 @@ const selectItem = (event, img) => {
   if (item === -1) {
     sliders.push(img);
   } else {
-    // sliders = sliders.filter((slider) => slider !== img);
+    sliders = sliders.filter((slider) => slider !== img);
     // alert('Hey, Already added !')
   }
 }
@@ -142,3 +142,4 @@ document.getElementById("search");
            document.getElementById("search-btn").click();
        }
   });
+
